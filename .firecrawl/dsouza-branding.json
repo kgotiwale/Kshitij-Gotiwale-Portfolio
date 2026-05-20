@@ -1,0 +1,124 @@
+{
+  "branding": {
+    "colorScheme": "light",
+    "fonts": [
+      {
+        "family": "General Sans",
+        "role": "body"
+      },
+      {
+        "family": "General Sans Placeholder",
+        "role": "body"
+      },
+      {
+        "family": "General Sans Variable",
+        "role": "body"
+      }
+    ],
+    "colors": {
+      "primary": "#FFEE00",
+      "secondary": "#2D290F",
+      "accent": "#AD9F3B",
+      "background": "#FFFFFF",
+      "textPrimary": "#AD9F3B",
+      "link": "#AD9F3B"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "General Sans",
+        "heading": "General Sans"
+      },
+      "fontStacks": {
+        "heading": [
+          "sans-serif"
+        ],
+        "body": [
+          "sans-serif"
+        ],
+        "paragraph": [
+          "General Sans",
+          "sans-serif"
+        ]
+      },
+      "fontSizes": {
+        "h1": "12px",
+        "h2": "12px",
+        "body": "15px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 10,
+      "borderRadius": "8px"
+    },
+    "components": {},
+    "images": {
+      "logo": null,
+      "favicon": "https://framerusercontent.com/images/KAbSMV2EVJiNbnAKLZaZqjVSuOc.png",
+      "ogImage": "https://framerusercontent.com/images/1jleRaoGtSxv1sYyW1GgI0dHs.png"
+    },
+    "personality": {
+      "tone": "modern",
+      "energy": "medium",
+      "targetAudience": "unknown"
+    },
+    "designSystem": {
+      "framework": "unknown",
+      "componentLibrary": ""
+    },
+    "confidence": {
+      "buttons": 0,
+      "colors": 0.9,
+      "overall": 0.45
+    },
+    "__llm_metadata": {
+      "logoSelection": {
+        "llmCalled": false,
+        "llmSucceeded": false,
+        "finalSource": "none"
+      },
+      "buttonClassification": {
+        "llmCalled": false,
+        "llmSucceeded": false
+      }
+    }
+  },
+  "metadata": {
+    "ogTitle": "Ankita D'Souza",
+    "robots": "max-image-preview:large",
+    "og:description": "Welcome to my Creative Kitchen",
+    "og:type": "website",
+    "language": "en-IN",
+    "ogDescription": "Welcome to my Creative Kitchen",
+    "description": "Welcome to my Creative Kitchen",
+    "framer-search-index": "https://framerusercontent.com/sites/16cjleKQwbSRW2yGzfZ8RD/searchIndex-gqAyQjhgMICY.json",
+    "ogUrl": "https://onecuriousdsouza.com/",
+    "og:title": "Ankita D'Souza",
+    "twitter:card": "summary_large_image",
+    "framer-html-plugin": "disable",
+    "ogImage": "https://framerusercontent.com/images/1jleRaoGtSxv1sYyW1GgI0dHs.png",
+    "twitter:image": "https://framerusercontent.com/images/1jleRaoGtSxv1sYyW1GgI0dHs.png",
+    "generator": "Framer c0f92f4",
+    "twitter:description": "Welcome to my Creative Kitchen",
+    "og:image": "https://framerusercontent.com/images/1jleRaoGtSxv1sYyW1GgI0dHs.png",
+    "framer-search-index-fallback": "https://framerusercontent.com/sites/16cjleKQwbSRW2yGzfZ8RD/searchIndex-Km7LDKDeHNyw.json",
+    "title": "Ankita D'Souza",
+    "og:url": "https://onecuriousdsouza.com/",
+    "color-scheme": "light dark",
+    "viewport": [
+      "width=device-width",
+      "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    ],
+    "twitter:title": "Ankita D'Souza",
+    "favicon": "https://framerusercontent.com/images/KAbSMV2EVJiNbnAKLZaZqjVSuOc.png",
+    "scrapeId": "019e452f-3185-729d-b00a-06422d82279b",
+    "sourceURL": "https://onecuriousdsouza.framer.website/",
+    "url": "https://onecuriousdsouza.framer.website/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "timezone": "America/New_York",
+    "proxyUsed": "basic",
+    "indexId": "44702f54-7e9a-4ed3-8bdf-bcc5e85649ff",
+    "creditsUsed": 1,
+    "concurrencyLimited": false
+  }
+}
