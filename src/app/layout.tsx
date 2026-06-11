@@ -63,17 +63,17 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "KshitijGotiwale",
+  title: "Kshitij Gotiwale",
   description: "Independent art director, brand designer, and illustrator based in London, United Kingdom and Mumbai, India.",
   openGraph: {
-    siteName: "KshitijGotiwale Portfolio",
-    title: "KshitijGotiwale",
+    siteName: "Kshitij Gotiwale Portfolio",
+    title: "Kshitij Gotiwale",
     description: "Independent art director, brand designer, and illustrator based in London, United Kingdom and Mumbai, India.",
     images: ["/seo/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "KshitijGotiwale",
+    title: "Kshitij Gotiwale",
     description: "Independent art director, brand designer, and illustrator based in London, United Kingdom and Mumbai, India.",
     images: ["/seo/og-image.png"],
   },
