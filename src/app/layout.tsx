@@ -66,6 +66,7 @@ export const metadata: Metadata = {
   title: "KshitijGotiwale",
   description: "Independent art director, brand designer, and illustrator based in London, United Kingdom and Mumbai, India.",
   openGraph: {
+    siteName: "KshitijGotiwale Portfolio",
     title: "KshitijGotiwale",
     description: "Independent art director, brand designer, and illustrator based in London, United Kingdom and Mumbai, India.",
     images: ["/seo/og-image.png"],
