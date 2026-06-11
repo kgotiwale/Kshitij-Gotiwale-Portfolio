@@ -65,10 +65,12 @@ export function AboutContent() {
           .about-image-body { flex-direction: column; gap: 32px; }
           .about-image-col { flex: none; max-width: 100%; width: 100%; }
           .about-text-col { width: 100%; }
+          .about-section2-inner { padding-bottom: 40px !important; }
+          .about-tagline { min-height: 0 !important; padding: 32px 24px !important; }
         }
       `}</style>
       <section style={{ backgroundColor: '#0a0a0a', position: 'relative', zIndex: 1, boxShadow: '0px -10px 30px 0px rgba(0, 0, 0, 0.40)' }}>
-        <div className="proj-side-pad" style={{ paddingTop: 64, paddingBottom: 80 }}>
+        <div className="proj-side-pad about-section2-inner" style={{ paddingTop: 64, paddingBottom: 80 }}>
           <div className="about-image-body">
             <div className="about-image-col">
               <Image
@@ -122,6 +124,7 @@ export function AboutContent() {
 
       {/* ── SECTION 3: "WE'RE NOT A BIG AGENCY" ── */}
       <section
+        className="about-tagline"
         style={{
           backgroundColor: '#0a0a0a',
           minHeight: 248,

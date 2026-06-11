@@ -87,7 +87,7 @@ export function ProjectFooter({ dark = false }: { dark?: boolean }) {
           gap: 4px;
         }
         @media (max-width: 640px) {
-          .pf-footer { padding: 48px 24px 32px !important; }
+          .pf-footer { padding: 48px 24px calc(var(--nav-bottom) + 56px) !important; }
           .pf-main-row { flex-direction: column; align-items: flex-start; gap: 24px; }
           .pf-right { align-items: flex-end; align-self: flex-end; }
         }
