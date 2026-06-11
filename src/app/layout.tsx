@@ -78,7 +78,10 @@ export const metadata: Metadata = {
     images: ["/seo/og-image.png"],
   },
   icons: {
-    icon: "/seo/favicon.svg",
+    icon: [
+      { url: "/seo/favicon.ico", sizes: "any" },
+      { url: "/seo/favicon.svg", type: "image/svg+xml" },
+    ],
     apple: "/seo/apple-touch-icon.svg",
   },
 };
