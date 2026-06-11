@@ -11,5 +11,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/project/dr-donato`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/project/project-1240`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/project/agentic-design-system`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/project/al-makhilah`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/project/audit-for-lifesciences`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/project/behno-new-york`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/project/in-their-wake`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/project/provantis-13`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/project/shuwa`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/project/subko`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.7 },
   ];
 }
