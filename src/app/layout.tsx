@@ -4,6 +4,7 @@ import { Navigation } from "@/components/Navigation";
 import { Logo } from "@/components/Logo";
 import { SiteTagline } from "@/components/SiteTagline";
 import { PageTransition } from "@/components/PageTransition";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const rmNeue = localFont({
@@ -92,6 +93,7 @@ export default function RootLayout({
         <SiteTagline />
         <Navigation />
         <PageTransition>{children}</PageTransition>
+        <SpeedInsights />
       </body>
     </html>
   );
