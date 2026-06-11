@@ -25,3 +25,4 @@ npm run build      # Production build
 npm run lint       # ESLint check
 npm run typecheck  # TypeScript check
 ```
+
