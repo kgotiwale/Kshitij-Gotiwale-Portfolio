@@ -14,13 +14,6 @@ export interface Project {
   href: string;
 }
 
-export interface ArchiveImage {
-  src: string;
-  alt?: string;
-  width: number;
-  height: number;
-}
-
 export interface ContactInfo {
   phone: string;
   email: string;

@@ -1,9 +1,9 @@
+import { HomeGallery } from "@/components/HomeGallery";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
+    <div style={{ backgroundColor: '#FFFFFF', height: '100dvh', overflow: 'hidden' }}>
+      <HomeGallery />
+    </div>
   );
 }
