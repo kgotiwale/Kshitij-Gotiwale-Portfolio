@@ -155,7 +155,7 @@ export function AboutContent() {
 
 
       {/* ── SECTION 9: FOOTER ── */}
-      <div style={{ backgroundColor: '#0a0a0a' }}>
+      <div style={{ backgroundColor: '#0a0a0a', position: 'relative', zIndex: 1 }}>
         <ProjectFooter dark />
       </div>
 

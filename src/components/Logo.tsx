@@ -9,12 +9,8 @@ export function Logo() {
   return (
     <>
       <style>{`
-        .site-logo-link { position: fixed; top: 24px; right: 28px; zIndex: 100000; mix-blend-mode: difference; pointer-events: auto; cursor: pointer; display: block; }
+        .site-logo-link { position: fixed; top: 24px; right: 28px; mix-blend-mode: difference; pointer-events: auto; cursor: pointer; display: block; }
         .site-logo-link svg { width: 80px; display: block; }
-        @media (max-width: 768px) {
-          .site-logo-link { top: 14px; right: 14px; }
-          .site-logo-link svg { width: 52px; }
-        }
       `}</style>
       <Link
         href="/"
