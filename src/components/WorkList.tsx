@@ -37,9 +37,14 @@ const projects: Project[] = [
   { year: '2022', title: 'Best in Typography, School of Design | University of Illinois at Chicago, 2022', href: '#', overlay: 'typography-award', hoverImage: '/images/typography/slide-2.jpg' },
 ];
 
+// Mulberry32: integer-only PRNG, bit-identical across JS engines.
+// Math.sin is implementation-defined and differed between Node (SSR)
+// and the browser, causing hydration mismatches on the sticker angles.
 function seededRandom(seed: number): number {
-  const x = Math.sin(seed + 1) * 10000;
-  return x - Math.floor(x);
+  let t = (seed + 1 + 0x6d2b79f5) | 0;
+  t = Math.imul(t ^ (t >>> 15), t | 1);
+  t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+  return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
 }
 
 const ROTATIONS = projects.map((_, i) => -12 + seededRandom(i) * 23);

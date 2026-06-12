@@ -6,9 +6,16 @@ import { usePathname } from 'next/navigation';
 export function PageTransition({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const prevPathname = useRef(pathname);
 
-  // Fade in on every route change
+  // Fade in on client-side route changes only — the initial load fade
+  // is handled by the CSS animation on .page-transition-wrapper, and
+  // re-triggering it after hydration causes a visible double flash.
+  // Comparing pathnames (rather than a first-render flag) keeps this
+  // correct under Strict Mode's double effect invocation in dev.
   useEffect(() => {
+    if (prevPathname.current === pathname) return;
+    prevPathname.current = pathname;
     const el = wrapperRef.current;
     if (!el) return;
     el.classList.remove('fade-out');
@@ -42,8 +49,11 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
       }, 200);
     };
 
-    document.addEventListener('click', handleClick);
-    return () => document.removeEventListener('click', handleClick);
+    // Capture phase so preventDefault() runs before Next.js <Link>'s own
+    // click handler — otherwise Link triggers a client-side navigation AND
+    // the timeout below triggers a full reload, loading every page twice
+    document.addEventListener('click', handleClick, true);
+    return () => document.removeEventListener('click', handleClick, true);
   }, []);
 
   // Restore fade-in when page is shown from bfcache (browser back/forward)
