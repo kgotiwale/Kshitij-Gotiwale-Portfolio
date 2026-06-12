@@ -18,6 +18,7 @@ interface Project {
 
 const projects: Project[] = [
   { year: '2026', title: 'Resolute',                    href: '#',                               category: 'Coming Soon' },
+  { year: '2026', title: 'Types & Faces Talk',          href: '#',                               category: 'Coming Soon' },
   { year: '2026', title: 'Audit for LifeSciences',      href: '/project/audit-for-lifesciences', category: 'Product Design', hoverImage: '/images/work/audit-hover.png' },
   { year: '2026', title: 'Dr Donato',                  href: '/project/dr-donato',             category: 'Branding', hoverImage: '/images/work/dr-donato-hover.png' },
   { year: '2026', title: 'Agentic Design System',       href: '/project/agentic-design-system',  category: 'Case-Study', hoverImage: '/images/work/agentic-hover.png' },
