@@ -17,6 +17,8 @@ interface Project {
 }
 
 const projects: Project[] = [
+  { year: '2026', title: 'Funko POP!',                  href: '#',                               category: 'Coming Soon' },
+  { year: '2026', title: 'HSBC',                        href: '#',                               category: 'Coming Soon' },
   { year: '2026', title: 'Resolute',                    href: '#',                               category: 'Coming Soon' },
   { year: '2026', title: 'Type&Faces Talk',             href: '#',                               category: 'Coming Soon' },
   { year: '2026', title: 'Audit for LifeSciences',      href: '/project/audit-for-lifesciences', category: 'Product Design', hoverImage: '/images/work/audit-hover.png' },
